@@ -9,7 +9,6 @@
   "author": "y.takeuchi",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^0.11.1",
-    "parcel-bundler": "^1.9.7"
+    "http-server": "^0.11.1"
   }
 }
