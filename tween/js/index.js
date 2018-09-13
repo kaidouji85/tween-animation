@@ -7,7 +7,6 @@ async function main() {
   const context = canvas.getContext('2d');
   const image = await loadImage('/image/image.png');
   const pos = {x: 0, y: 0};
-
   const tween = animation(pos);
   tween.start();
 

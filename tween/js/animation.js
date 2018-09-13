@@ -12,7 +12,7 @@ export function animation(pos) {
   const t3 = new TWEEN.Tween(pos)
     .to({x: 0}, 1000);
   const t4 = new TWEEN.Tween(pos)
-    .to({y: 0});
+    .to({y: 0}, 1000);
 
   t1.chain(t2);
   t2.chain(t3);
