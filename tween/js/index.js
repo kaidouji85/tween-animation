@@ -1,10 +1,7 @@
 import {loadImage} from "./load-image.js";
+import {animation} from "./animation.js";
 
-function animation(pos) {
-  return new TWEEN.Tween(pos)
-    .to({x: 300, y: 300});
-}
-
+/** メイン処理 */
 async function main() {
   const canvas = document.querySelector('.main-canvas') || document.createElement('canvas');
   const context = canvas.getContext('2d');
@@ -14,6 +11,7 @@ async function main() {
   const tween = animation(pos);
   tween.start();
 
+  /** ゲームループ、約60FPSでキャンバスを再描画している */
   const gameLoop = time => {
     requestAnimationFrame(gameLoop);
     TWEEN.update(time);
