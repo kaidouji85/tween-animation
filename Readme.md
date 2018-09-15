@@ -10,7 +10,8 @@ npm start
 
 2. 実行したいサンプルごとに、以下URLをブラウザで開く
 
-|  サンプル名        | URL                                     | 
-| ---------------- | --------------------------------------- |
-|  01 Tween        | localhost:8080/01-tween                 |
-|  02 アンチパターン  | localhost:8080/02-anti-patten           |
+|  サンプル名               | URL                                     | 
+| ----------------------- | --------------------------------------- |
+|  01 Tween               | localhost:8080/01-tween                 |
+|  02 アンチパターン         | localhost:8080/02-anti-patten           |
+|  03 Web Animation API   | localhost:8080/03-web-animation-api     |
