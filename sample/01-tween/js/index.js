@@ -10,7 +10,6 @@ async function main() {
   const tween = animation(pos);
   tween.start();
 
-  /** ゲームループ、約60FPSでキャンバスを再描画している */
   const gameLoop = time => {
     requestAnimationFrame(gameLoop);
     TWEEN.update(time);
