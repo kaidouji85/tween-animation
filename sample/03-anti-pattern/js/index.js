@@ -4,7 +4,7 @@ import {loadImage} from "./load-image.js";
 async function main() {
   const canvas = document.querySelector('.main-canvas') || document.createElement('canvas');
   const context = canvas.getContext('2d');
-  const image = await loadImage('/image/image.png');
+  const image = await loadImage('./image/image.png');
   const pos = {x: 0, y: 0};
 
   const gameLoop = time => {

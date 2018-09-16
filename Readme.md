@@ -13,5 +13,5 @@ npm start
 |  サンプル名               | URL                                     | 
 | ----------------------- | --------------------------------------- |
 |  01 Tween               | localhost:8080/01-tween                 |
-|  02 アンチパターン         | localhost:8080/02-anti-patten           |
-|  03 Web Animation API   | localhost:8080/03-web-animation-api     |
+|  02 Web Animation API   | localhost:8080/02-web-animation-api     |
+|  03 アンチパターン         | localhost:8080/03-anti-pattern          |
