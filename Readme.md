@@ -1,5 +1,10 @@
 # Tweenライブラリサンプル
 
+JSer.info 400回記念イベント発表のサンプルコードです。
+発表スライダは、ここです。
+
+https://speakerdeck.com/kaidouji85/tweenniyoruanimesiyon
+
 ## 動かし方
 1. Readme.mdがある場所で、以下コマンドを実行する
 
