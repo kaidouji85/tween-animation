@@ -1,7 +1,7 @@
 # Tweenライブラリサンプル
 
 JSer.info 400回記念イベント発表のサンプルコードです。
-発表スライダは、ここです。
+なお、発表に使ったスライドは、こちらです。
 
 https://speakerdeck.com/kaidouji85/tweenniyoruanimesiyon
 
